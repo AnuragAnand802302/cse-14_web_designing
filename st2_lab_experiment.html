@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ShopEase</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #111;
+        padding: 1rem 2rem;
+        color: #fff;
+    }
+    .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .nav-links {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+    }
+    .nav-links a {
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+    }
+    .right-menu {
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+        font-size: 1rem;
+    }
+    .content {
+        padding: 2rem;
+    }
+    h2 {
+        margin-bottom: 0.5rem;
+    }
+    @media (max-width: 768px) {
+        .nav-links {
+            display: none;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">ShopEase</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="right-menu">
+            <span>Cart 🛒</span>
+            <span>Login</span>
+        </div>
+    </div>
+    <div class="content">
+        <h2><b>Welcome to ShopEase!</b></h2>
+        <p>Your one-stop destination for all shopping needs.</p>
+    </div>
+</body>
+</html>
